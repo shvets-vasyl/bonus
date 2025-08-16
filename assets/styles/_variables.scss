@@ -1,0 +1,25 @@
+@use "./utils" as *;
+
+// viewport
+
+:root {
+  --viewport: 1440;
+
+  @include mobile {
+    --viewport: 375;
+  }
+}
+
+// fonts
+
+:root {
+  --font-regular: "FiraRegular";
+  --font-italic: "FiraExtraBoldItalic";
+}
+
+
+:root {
+	--desk-height: 1080;
+	--tab-width: 768;
+	--mob-width: 375;
+}
