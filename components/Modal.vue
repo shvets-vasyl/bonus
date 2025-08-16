@@ -32,6 +32,7 @@
 	display: inline-block;
 	opacity: 0;
 	visibility: hidden;
+
 }
 .modal-wrap.show {
 		opacity: 1;
@@ -48,6 +49,11 @@
     width: 109.25926vh;
     height: 53.14815vh;
     transform: translate(-50%, -68%);
+		@include mobile {
+			width: 100vw;
+        height: 58.66667vw;
+        transform: translate(-50%, -78%);
+		}
 }
 
 .modal-slogan, .modal__content {
@@ -75,6 +81,10 @@
     height: 16.66667vh;
     width: auto;
     cursor: pointer;
+		@include mobile {
+			        height: 27.2vw;
+        bottom: -41vw;
+		}
 }
 .modal-b, .modal-b:after {
     position: absolute;
@@ -109,6 +119,10 @@
     z-index: 1;
     text-transform: uppercase;
     margin: 8vh 0 2vh;
+		@include mobile {
+			font-size: 6.66667vw;
+        margin: 13vw 0 2vw;
+		}
 }
 
 .btn-main {
@@ -132,6 +146,12 @@
     transform: translate(-50%, -50%);
     z-index: 1;
     animation: pulse 2s linear infinite;
+		@include mobile {
+			        width: 49.06667vw;
+        height: 13.06667vw;
+        font-size: 6.4vw;
+        line-height: 14vw;
+		}
 }
 
 @keyframes pulse {
@@ -149,6 +169,9 @@
 .modal-slogan span {
     font-size: 3.7037vh;
     color: #f2ff00;
+		@include mobile {
+        font-size: 3.73333vw;
+		}
 }
 
 
@@ -190,16 +213,26 @@
     -ms-flex-align: end;
     align-items: flex-end;
     margin-bottom: 1vh;
+		@include mobile {
+			margin-bottom: 1vw;
+			font-size: 18.66667vw;
+		}
 }
 
 .modal-bonus .modal-bonus-amount.small {
     font-size: 7.40741vh;
     color: #f2ff00;
+		@include mobile {
+			font-size: 6.66667vw;
+		}
 }
 .modal-bonus .modal-bonus-currency {
     font-size: 3.7037vh;
     display: inline-block;
     letter-spacing: 0;
     line-height: 100%;
+		@include mobile {
+			font-size: 3.46667vw;
+		}
 }
 </style>

@@ -45,6 +45,15 @@ const playGame = () => {
   transform: translate(-49%, -62%);
   transition: all 0.3s;
   z-index: 2;
+	@include mobile {
+		width: 100vw;
+		height: 64.8vw;
+		position: relative;
+		top: 45vw;
+		left: 50%;
+		transform: translate(-50%);
+		font-size: 100vw;
+	}
 }
 .slogan {
   top: -7vh;
@@ -56,6 +65,14 @@ const playGame = () => {
   font-size: 5.55556vh;
   position: absolute;
   z-index: 2;
+	@include mobile {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: 8vw;
+		top: -22vw;
+		line-height: 1.2;
+	}
 }
 .slogan span:nth-child(2) {
   color: #f2f740;
@@ -73,6 +90,10 @@ const playGame = () => {
   height: 16.66667vh;
   width: auto;
   cursor: pointer;
+	@include mobile {
+		height: 27.2vw;
+		bottom: -35vw;
+	}
 }
 .btn-start {
   background-image: url("/images/btn-start-bg.png");
@@ -95,6 +116,13 @@ const playGame = () => {
   transform: translate(-50%, -50%);
   z-index: 1;
   animation: pulse 2s linear infinite;
+	@include mobile {
+		width: 49.06667vw;
+		height: 13.06667vw;
+		font-size: 6.4vw;
+		line-height: 14vw;
+		top: 100%;
+	}
 }
 
 @keyframes pulse {
@@ -121,6 +149,12 @@ const playGame = () => {
   display: flex;
   justify-content: space-between;
   cursor: pointer;
+	@include mobile {
+		top: calc(88 / var(--mob-width) * 1em);
+		height: calc(135 / var(--mob-width) * 1em);
+		width: calc(273 / var(--mob-width) * 1em);
+		left: 49.7%;
+	}
 }
 .game-block .slots__wrap video {
   width: 100%;
