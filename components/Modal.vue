@@ -12,7 +12,7 @@
                 </div>
                 <div class="btn-main">забрати</div>
             </div>
-            <img src="public/images/steps.png" alt="" class="steps-modal" data-toggle="modal" data-target="#modalRegistration" data-dismiss="modal">
+            <img src="/images/steps.png" alt="" class="steps-modal" data-toggle="modal" data-target="#modalRegistration" data-dismiss="modal">
         </div>
     </div>
 </template>
@@ -109,7 +109,7 @@
 }
 
 .btn-main {
-    background-image: url(images/btn-start-bg.png);
+    background-image: url("/images/btn-start-bg.png");
     font-family: Fira, sans-serif;
     background-repeat: no-repeat;
     background-size: contain;

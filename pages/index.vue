@@ -5,10 +5,10 @@
 		<Header />
 		<GameBlock />
 
-		<img src="public/images/left.svg" alt="" class="left "></img>
-		<img src="public/images/left.webp" class="bg-left desk" alt="">
-		<img src="public/images/right.webp" class="bg-right" alt="">
-		<img src="public/images/right.svg" alt="" class="right for-desk">
+		<img src="/images/left.svg" alt="" class="left "></img>
+		<img src="/images/left.webp" class="bg-left desk" alt="">
+		<img src="/images/right.webp" class="bg-right" alt="">
+		<img src="/images/right.svg" alt="" class="right for-desk">
 
 		<Modal />
 		<Footer />

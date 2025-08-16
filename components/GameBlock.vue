@@ -10,7 +10,7 @@
     </div>
 
     <div class="btn-start active start" @click="playGame">крутити</div>
-    <img src="public/images/steps.png" alt="" class="steps start" />
+    <img src="/images/steps.png" alt="" class="steps start" />
   </div>
 </template>
 <script setup lang="ts">
@@ -75,7 +75,7 @@ const playGame = () => {
   cursor: pointer;
 }
 .btn-start {
-  background-image: url(images/btn-start-bg.png);
+  background-image: url("/images/btn-start-bg.png");
   font-family: Fira, sans-serif;
   background-repeat: no-repeat;
   background-size: contain;
