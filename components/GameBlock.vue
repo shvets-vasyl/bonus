@@ -6,7 +6,7 @@
     <img src="/images/game-bg.png" class="game-bg" alt="" />
 
     <div class="slots__wrap" @click="playGame">
-      <video ref="slotVideo" preload="auto" playsinline muted src="/animation.mov" />
+      <video ref="slotVideo" preload="auto" poster="/images/frame.png" playsinline muted src="/animation.mov" />
     </div>
 
     <div class="btn-start active start" @click="playGame">крутити</div>

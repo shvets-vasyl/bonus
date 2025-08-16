@@ -28,6 +28,7 @@ onMounted(() => {
 	position: relative;
 	opacity: 0;
 	height: 100vh;
+	overflow: hidden;
 	@include mobile {
 		min-height: 100vh;
 		height: auto;
