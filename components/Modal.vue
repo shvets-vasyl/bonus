@@ -80,7 +80,7 @@
 }
 .modal-b:after {
     content: "";
-    background: url(images/modal-bg.webp) no-repeat 50% / cover;
+    background: url("/images/modal-bg.webp") no-repeat 50% / cover;
     width: 100%;
     height: 100%;
     transform: translate(-50%, -50%);
