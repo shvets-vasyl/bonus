@@ -29,10 +29,13 @@
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);
 	z-index: 1000;
-	display: none;
+	display: inline-block;
+	opacity: 0;
+	visibility: hidden;
 }
 .modal-wrap.show {
-    display: inline-block;
+		opacity: 1;
+		visibility: visible;
 }
 
 .modal-b, .modal-b:after {
