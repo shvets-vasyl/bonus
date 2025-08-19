@@ -12,10 +12,10 @@
 
                 </div>
                 <div class="footer-socials">
-                    <a href="https://www.instagram.com/parik24_official/" target="_blank">
+                    <a href="https://www.instagram.com/spartans/?igsh=MTE2dGZobmpwZGxqOA%3D%3D#" target="_blank">
                         <img src="/images/inst.svg" alt="" class="age">
                     </a>
-                    <a href="https://t.me/+W06frZ2VCFw4YzRi" target="_blank">
+                    <a href="https://t.me/SpartansBetOfficial" target="_blank">
                         <img src="/images/telegram.svg" alt="" class="age">
                     </a>
                     <img src="/images/social-icon-1.png" alt="" class="age">
