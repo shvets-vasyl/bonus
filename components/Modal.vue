@@ -2,15 +2,16 @@
 <div class="modal-wrap victory">
         <div class="modal-b">
             <div class="modal__content" data-toggle="modal" data-target="#modalRegistration" data-dismiss="modal">
-            <div class="modal-slogan">Щасливчик!<span>Забирай свій бонус</span></div>
+            <div class="modal-slogan"><span>¡Obtén un</span></div>
                 <div class="modal-bonus victiory">
                     <div class="modal-bonus-amount win">
-                        50 000
-                        <span class="modal-bonus-currency">грн</span>
+                        300%
                     </div>
-                    <div class="modal-bonus-amount small">+100 FREESPINS</div>
+										<div class="slogan-normal">de bono en tu primer depósito y un</div>
+                    <div class="modal-bonus-amount small">25%</div>
+										<div class="slogan-normal">de bono diario!</div>
                 </div>
-                <div class="btn-main">забрати</div>
+                <div class="btn-main">¡Reclamar bono!</div>
             </div>
             <img src="/images/steps.png" alt="" class="steps-modal" data-toggle="modal" data-target="#modalRegistration" data-dismiss="modal">
         </div>
@@ -124,6 +125,18 @@
         margin: 13vw 0 2vw;
 		}
 }
+.slogan-normal {
+	color: #fff;
+	text-align: center;
+	font-size: 4vh;
+	font-family: var(--font-italic);
+	line-height: 1.4;
+	z-index: 1;
+	text-transform: uppercase;
+	@include mobile {
+		font-size: 4vw;
+	}
+}
 
 .btn-main {
     background-image: url("/images/btn-start-bg.png");
@@ -136,7 +149,8 @@
     text-align: center;
     width: 42.5vh;
     height: 11.2963vh;
-    font-size: 5.55556vh;
+    font-size: 4vh;
+		white-space: nowrap;
     line-height: 11.5vh;
     display: inline-block;
     cursor: pointer;
@@ -149,7 +163,7 @@
 		@include mobile {
 			        width: 49.06667vw;
         height: 13.06667vw;
-        font-size: 6.4vw;
+        font-size: 4.5vw;
         line-height: 14vw;
 		}
 }
@@ -176,28 +190,6 @@
 
 
 .modal-bonus .modal-bonus-amount {
-    display: -ms-flexbox;
-    display: flex
-;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-align: center;
-    align-items: center;
-    color: #fff;
-    font-size: 20.37037vh;
-    font-family: var(--font-italic);
-    line-height: 1;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 76%;
-}
-.modal-bonus .modal-bonus-amount {
-    display: flex
-;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-align: center;
-    align-items: center;
     color: #fff;
     font-size: 20.37037vh;
     font-family: var(--font-italic);

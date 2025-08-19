@@ -1,7 +1,8 @@
 <template>
   <div class="game-block">
     <div class="slogan">
-      <span>Крути барабан - </span><span>вигравай бонуси</span>
+      <span>300% </span><span>DE BONO</span><br/>
+			<span>EN TU PRIMER DEPÓSITO</span>
     </div>
     <img src="/images/game-bg.png" class="game-bg" alt="" />
 
@@ -9,7 +10,7 @@
       <video ref="slotVideo" preload="auto" poster="/images/frame.png" playsinline muted src="/animation.mov" />
     </div>
 
-    <div class="btn-start active start" @click="playGame">крутити</div>
+    <div class="btn-start active start" @click="playGame">GIRAR</div>
     <img src="/images/steps.png" alt="" class="steps start" />
   </div>
 </template>
@@ -56,7 +57,7 @@ const playGame = () => {
 	}
 }
 .slogan {
-  top: -7vh;
+  top: -12vh;
   left: 50%;
   transform: translateX(-50%);
   font-family: var(--font-italic);
@@ -65,16 +66,15 @@ const playGame = () => {
   font-size: 5.55556vh;
   position: absolute;
   z-index: 2;
+	line-height: 1;
+	text-align: center;
 	@include mobile {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
 		font-size: 8vw;
 		top: -22vw;
 		line-height: 1.2;
 	}
 }
-.slogan span:nth-child(2) {
+.slogan span:nth-child(1) {
   color: #f2f740;
 }
 .game-block .game-bg {
