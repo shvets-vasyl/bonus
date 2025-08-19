@@ -10,7 +10,7 @@
           data-dismiss="modal"
         >
           <img
-            src="public/images/logo.svg"
+            src="/logo.webp"
             alt="Ставки на спорт ᐉ Онлайн Парі на Гроші в Україні Parik24"
           />
         </div>
@@ -22,7 +22,7 @@
 <script setup lang="ts"></script>
 <style scoped lang="scss">
 .header {
-  padding: 3.05556vh 0 0;
+  padding: 2vh 0 0;
   position: absolute;
   z-index: 5;
   width: 100%;
@@ -62,7 +62,7 @@
 }
 .logo img {
   width: auto;
-  height: 5.09259vh;
+  height: 5vh;
   display: block;
   image-rendering: -webkit-optimize-contrast;
 	@include mobile {

@@ -9,6 +9,7 @@
                     <img src="/images/crypto-icon-3.svg" class="crypto-icon crypto-icon-3" alt="">
                     <img src="/images/crypto-icon-4.svg" class="crypto-icon crypto-icon-4" alt="">
                     <img src="/images/crypto-icon-5.svg" class="crypto-icon crypto-icon-5" alt="">
+
                 </div>
                 <div class="footer-socials">
                     <a href="https://www.instagram.com/parik24_official/" target="_blank">
@@ -49,6 +50,7 @@
 }
 .footer-payments {
     justify-content: flex-start;
+		position: relative;
 }
 .footer-payments, .footer-apps, .footer-socials {
     display: -webkit-box;
