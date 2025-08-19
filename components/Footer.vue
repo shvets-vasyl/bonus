@@ -2,14 +2,7 @@
 	<footer class="footer">
             <div class="footer-container">
                 <div class="footer-payments">
-                    <img src="/images/visa.png" class="visa" alt="">
-                    <img src="/images/mastercard.png" class="mastercard" alt="">
-                    <img src="/images/crypto-icon-1.svg" class="crypto-icon crypto-icon-1" alt="">
-                    <img src="/images/crypto-icon-2.svg" class="crypto-icon crypto-icon-2" alt="">
-                    <img src="/images/crypto-icon-3.svg" class="crypto-icon crypto-icon-3" alt="">
-                    <img src="/images/crypto-icon-4.svg" class="crypto-icon crypto-icon-4" alt="">
-                    <img src="/images/crypto-icon-5.svg" class="crypto-icon crypto-icon-5" alt="">
-
+                   <img src="/images/icons.png" alt="">
                 </div>
                 <div class="footer-socials">
                     <a href="https://www.instagram.com/spartans/?igsh=MTE2dGZobmpwZGxqOA%3D%3D#" target="_blank">
@@ -47,58 +40,25 @@
     justify-content: space-between;
     align-items: center;
     flex: 1 0 auto;
-}
-.footer-payments {
-    justify-content: flex-start;
-		position: relative;
-}
-.footer-payments, .footer-apps, .footer-socials {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-;
-    align-items: center;
-    flex: 1 1 33.33%;
+		padding-bottom: 1vh;
+		@include mobile {
+			padding-bottom: 1vw;
+		}
 }
 
-.footer-payments .visa {
-    height: 1.4vh;
-		@include mobile {
-			height: 3.8vw;
-		}
-}
 .footer-payments img {
-    margin-right: 3.7vh;
-		@include mobile {
-			margin-right: 5.3vw;
-		}
-}
-.footer-payments .mastercard {
-    height: 2.2vh;
-		@include mobile {
-			height: 5.2vw;
-		}
-}
-.footer-payments .crypto-icon {
-    height: 2.22vh;
-		@include mobile {
-			height: 5.3vw;
-		}
-}
-.footer-payments .crypto-icon-4, .footer-payments .crypto-icon-5, .footer-payments .crypto-icon-2 {
+	width: 55vh;
 	@include mobile {
-		display: none;
+		width: 50vw;
 	}
 }
+
+
 .footer-socials {
     justify-content: flex-end;
+		display: flex;
 }
 
-.footer-payments, .footer-apps, .footer-socials {
-    display: flex;
-    align-items: center;
-    flex: 1 1 33.33%;
-}
 .footer-socials a {
     margin-right: 2.7vh;
 		@include mobile {
