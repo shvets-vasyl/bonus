@@ -11,7 +11,11 @@
     </div>
 
     <div class="btn-start active start" @click="playGame">GIRAR</div>
-    <img src="/images/steps.png" alt="" class="steps start" />
+		<div class="steps-icons steps start">
+			<img src="/images/icon 1.png" alt="">
+			<img src="/images/icon 2.png" alt="">
+			<img src="/images/icon 3.png" alt="">
+		</div>
   </div>
 </template>
 <script setup lang="ts">
@@ -85,11 +89,12 @@ const playGame = () => {
 .steps {
   position: absolute;
   bottom: -19vh;
-  left: 50%;
+  left: 48.5%;
   transform: translateX(-50%);
   height: 16.66667vh;
   width: auto;
   cursor: pointer;
+	display: flex;
 	@include mobile {
 		height: 27.2vw;
 		bottom: -35vw;

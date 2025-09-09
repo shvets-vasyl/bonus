@@ -13,7 +13,12 @@
                 </div>
                 <div class="btn-main">¡Reclamar bono!</div>
             </div>
-            <img src="/images/steps.png" alt="" class="steps-modal" data-toggle="modal" data-target="#modalRegistration" data-dismiss="modal">
+
+						<div class="steps-modal">
+							<img src="/images/icon 1.png" alt="">
+							<img src="/images/icon 2.png" alt="">
+							<img src="/images/icon 3.png" alt="">
+						</div>
         </div>
     </div>
 </template>
@@ -82,6 +87,7 @@
     height: 16.66667vh;
     width: auto;
     cursor: pointer;
+		display: flex;
 		@include mobile {
 			        height: 27.2vw;
         bottom: -41vw;
