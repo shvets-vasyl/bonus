@@ -1,8 +1,9 @@
 <template>
   <div class="game-block">
     <div class="slogan">
-      <span>300% </span><span>DE BONO</span><br/>
-			<span>EN TU PRIMER DEPÓSITO</span>
+      <!-- <span>300% </span><span>DE BONO</span><br/>
+			<span>EN TU PRIMER DEPÓSITO</span> -->
+			EL ÚNICO CASINO DONDE <br>PERDER ES IMPOSIBLE
     </div>
     <img src="/images/game-bg.png" class="game-bg" alt="" />
 
