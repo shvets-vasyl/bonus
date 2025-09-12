@@ -47,12 +47,18 @@
 }
 
 .footer-payments img {
-	width: 55vh;
+	width: 45vh;
 	@include mobile {
 		width: 50vw;
 	}
 }
 
+.footer-payments {
+	padding-bottom: 8vh;
+	@include mobile {
+		padding-bottom: 5vw;
+	}
+}
 
 .footer-socials {
     justify-content: flex-end;
